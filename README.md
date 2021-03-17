@@ -16,7 +16,7 @@ Project title: HAIRCARE
                                 Bùi Minh Hoàng            Student1279121  
 ============================
 
-eProject documentation at https://github.com/ladori08/eProject1/tree/master/document
+eProject documentation at https://github.com/thienquang1804/eProject1/tree/main/Review
 
 ============================
 
