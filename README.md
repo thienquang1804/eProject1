@@ -20,7 +20,7 @@ eProject documentation at https://github.com/thienquang1804/eProject1/tree/main/
 
 ============================
 
-eProject published at https://thienquang1804.github.io/eProject1
+eProject published at https://thienquang1804.github.io/eProject1/
 
 ============================
 
