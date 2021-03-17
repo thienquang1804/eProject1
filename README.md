@@ -20,7 +20,11 @@ eProject documentation at https://github.com/thienquang1804/eProject1/tree/main/
 
 ============================
 
-eProject published at coming soon
+eProject published at coming soon...
+
+============================
+
+eProject published at  coming soon...
 
 ============================
 
