@@ -64,6 +64,9 @@ img {
   text-transform: uppercase;
   font-weight: bold;
 }
+.header_menu_link:hover{
+  color: 	#005073 !important;
+}
 @media only screen and (max-width: 980px) {
   .header-inner {
     width: 100%;
@@ -190,6 +193,9 @@ img {
 }
 .footer-bottom {
   background-color: rgba(0, 0, 0, 0.2);
+}
+.col-md-2{
+  margin: 15px 0;
 }
 /* contact us */
 .contact {
