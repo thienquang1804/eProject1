@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>HairCare</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 d-flex justify-content-center">
+              <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center pt-3 search-box">
+              <input
+                class="form-control search-box-input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <div class="search-box-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+            </div>
+            <nav class="col-md-6 pt-4 pb-3 header_menu">
+              <ul
+                class="header_menu_list justify-content-center text-center d-flex"
+              >
+                <li class="header_menu_item">
+                  <a href="index.html" class="header_menu_link">Home</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="product.html" class="header_menu_link">Product</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="blog_news.html" class="header_menu_link"
+                    >Blog News</a
+                  >
+                </li>
+                <li class="header_menu_item">
+                  <a href="about_us.html" class="header_menu_link">About Us</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="contact.html" class="header_menu_link">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-------------------------------Slider--------------------------------->
+      <div class="container">
+        <div class="slider">
+          <div
+            id="slider"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-1.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-2.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-3.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-4.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li data-bs-target="#slider" data-bs-slide-to="1"></li>
+              <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+              <li data-bs-target="#slider" data-bs-slide-to="3"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!-- New Product -->
+      <section class="new-product">
+        <div class="container">
+          <div class="title-box">
+            <h2 class="title-box-name">New Product</h2>
+          </div>
+          <div class="row">
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_01.html" title="products"
+                  ><img class="product-img" src="images/product01.jpg" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Nourishing Olive Fruit Oil Conditioner
+                </h3>
+                <p class="product-description">
+                  A lightweight conditioner for dry hair.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_02.html" title="products"
+                  ><img class="product-img" src="images/product03.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">Hanz de Fuko Scheme Cream</h3>
+                <p class="product-description">
+                  For an option that's right down the middle, Haz de Fuko's
+                  Scheme Cream is the perfect combination of medium hold and
+                  medium shine.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_03.html" title="products"
+                  ><img class="product-img" src="images/product04.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  L'Oréal Paris Elnett Satin Extra Strong Hold Hairspray
+                </h3>
+                <p class="product-description">
+                  Elnett Satin Extra Strong Hold Hair Spray is a long-lasting,
+                  brushable hairspray with a clean, soft finish; Never stiff or
+                  crunchy, Elnett controls flyaways, holds curls, and resists
+                  humidity all day long
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_04.html" title="products"
+                  ><img class="product-img" src="images/product05.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  John Frieda Frizz-Ease Nourishing Oil Elixir
+                </h3>
+                <p class="product-description">
+                  Professionals swear by this nourishing oil from John Frieda
+                  because it’s a high-quality product that helps smooth the hair
+                  while giving you a great “bang for your buck.”
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Hair Care Product -->
+      <section class="haircare-product">
+        <div class="container">
+          <div class="title-box">
+            <h2 class="title-box-name">Hair Care Product</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_05.html" title="products"
+                  ><img class="product-img" src="images/product02.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">Sleek & Shine Anti-Frizz Serum</h3>
+                <p class="product-description">
+                  Hair serum for instant sleek* for straight to wavy/curly hair
+                  types. With shampoo, conditioner and leave-in treatment
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_06.html" title="products"
+                  ><img class="product-img" src="images/product06.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Clinical dandruff defense intensive itch relief sh twin pack,
+                  13.5 fl oz each
+                </h3>
+                <p class="product-description">
+                  35% more dandruff fighting power* (*fights Malassezia after 1
+                  wash vs ordinary anti-dandruff shampoos)
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_07.html" title="products"
+                  ><img class="product-img" src="images/product07.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Clear Shampoo Anti Dandruff Deep Clean Activated Charcoal and
+                  Mint 3X400ML 13.53OZ
+                </h3>
+                <p class="product-description">
+                  Helps replenish protein components, nourishes scalp, and gives
+                  you healthy looking, beautiful hair.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_08.html" title="products"
+                  ><img class="product-img" src="images/product08.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Color Extend Blondage Express Anti-Brass Mask
+                </h3>
+                <p class="product-description">
+                  Keep your blonde hair in the best condition with this
+                  ultra-pigmented purple hair mask. This powerful toning hair
+                  mask will fight brass and help keep your blonde cool, bright
+                  and healthy.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_01.html" title="products"
+                  ><img class="product-img" src="images/product01.jpg" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Nourishing Olive Fruit Oil Conditioner
+                </h3>
+                <p class="product-description">
+                  A lightweight conditioner for dry hair.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_02.html" title="products"
+                  ><img class="product-img" src="images/product03.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">Hanz de Fuko Scheme Cream</h3>
+                <p class="product-description">
+                  For an option that's right down the middle, Haz de Fuko's
+                  Scheme Cream is the perfect combination of medium hold and
+                  medium shine.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_03.html" title="products"
+                  ><img class="product-img" src="images/product04.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  L'Oréal Paris Elnett Satin Extra Strong Hold Hairspray
+                </h3>
+                <p class="product-description">
+                  Elnett Satin Extra Strong Hold Hair Spray is a long-lasting,
+                  brushable hairspray with a clean, soft finish; Never stiff or
+                  crunchy, Elnett controls flyaways, holds curls, and resists
+                  humidity all day long
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="product_detail_04.html" title="products"
+                  ><img class="product-img" src="images/product05.png" alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  John Frieda Frizz-Ease Nourishing Oil Elixir
+                </h3>
+                <p class="product-description">
+                  Professionals swear by this nourishing oil from John Frieda
+                  because it’s a high-quality product that helps smooth the hair
+                  while giving you a great “bang for your buck.”
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Hair Care Equipments -->
+      <section class="haircare-equipments">
+        <div class="container">
+          <div class="title-box">
+            <h2 class="title-box-name">Hair Care Equipments</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_01.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments01.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">Ultra Light Pro Dryer</h3>
+                <p class="product-description">
+                  A professional, ionic hair dryer with lightweight handling
+                  that significantly reduces drying time.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_02.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments02.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">Corrale Hair Straightener</h3>
+                <p class="product-description">
+                  A cord-free straightener with flexing copper plates to give
+                  you the ultimate in control to achieve styling with less heat,
+                  reduced frizz, and fewer flyaways.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_03.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments03.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">360 Mist Sprayer</h3>
+                <p class="product-description">
+                  Use the Salon Care 360 Mist Sprayer upright or upside down.
+                  This airless, propellant-free sprayer, sprays a fine mist and
+                  provides a continuous spray pattern. Easy to use, reusable and
+                  refillable.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_04.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments04.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Kingsteam Hair Steamer 2 in 1 Ozone Facial Steamer
+                </h3>
+                <p class="product-description">
+                  It's definitely bulkier than a cap, but this tabletop hair
+                  steamer is a great option if you're looking for something
+                  slightly more powerful. It spits out a nice mist when you plug
+                  it in, and the hood is large enough to comfortably hold long
+                  hair.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_05.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments05.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Heeta Hair Scalp Brush and Massager
+                </h3>
+                <p class="product-description">
+                  With an ergonomic design and soft silicone tips, this handy massager provides a gentle but effective cleanse. When used with your shampoo, disperse the product into your hair first, then use the massager to lather at the root. Circular motions will help to dislodge any debris or dandruff—and also gives you a relaxing massage at the same time.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_06.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments06.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Hair Spa Cap Thermal Heating Cap Combo-C182
+                </h3>
+                <p class="product-description">
+                  Thermal Hair Steamer CapSafe and convenient to useAn indispensable tool for nursing your hair at homeThe inner embedded plastic film is waterproofDetachable and washable Plastic filmTwo levels of temperature.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_07.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments07.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  3-in-1 Ceramic Curling Iron 1.25 Inch (1 piece)
+                </h3>
+                <p class="product-description">
+                  A professional-grade curling iron that works interchangeably as a wand, marcel and curling iron.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="product-top">
+                <a href="equipments_detail_08.html" title="products"
+                  ><img
+                    class="product-img"
+                    src="images/equipments08.png"
+                    alt=""
+                /></a>
+              </div>
+              <div class="product-bottom text-center">
+                <h3 class="product-title">
+                  Supersonic Hair Dryer
+                </h3>
+                <p class="product-description">
+                  This one-of-a-kind design (the motor is in the handle!) had the strongest airflow and dried hair faster than any model in the history of Beauty Lab hair dryer testing. In Lab evaluations, it dried an eight-inch hair sample in only 54 seconds. Testers loved how sleek it looked and one raved, "It got hair smoother, and in less time, than any hair dryer I've used."
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="footer-top text-center text-white">
+        <div class="container">
+          <section class="mt-5">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html" class="text-white">Home</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="product.html" class="text-white">Products</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="blog_news.html" class="text-white">Blog News</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="about_us.html" class="text-white">About us</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="contact.html" class="text-white">Contact</a>
+                </h6>
+              </div>
+            </div>
+          </section>
+          <hr class="my-5" />
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p>
+                  Our company is the world’s largest cosmetic company and we
+                  develop activities on concentrating on hair color, skin care,
+                  and hair care. We helps to dry scalp to oily hair, dandruff to
+                  split end. 5 Problem 1 solution. Hair care product will
+                  cleanse, nourish, strengthen, smooth, and protect specifically
+                  for hair type.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="text-center mb-5">
+            <a href="https://www.facebook.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.google.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </section>
+        </div>
+        <div class="footer-bottom text-center p-3">
+          © 2021 Copyright: Group 3
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
