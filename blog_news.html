@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>HairCare</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 d-flex justify-content-center">
+              <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center pt-3 search-box">
+              <input
+                class="form-control search-box-input"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <div class="search-box-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+            </div>
+            <nav class="col-md-6 pt-4 pb-3 header_menu">
+              <ul
+                class="header_menu_list justify-content-center text-center d-flex"
+              >
+                <li class="header_menu_item">
+                  <a href="index.html" class="header_menu_link">Home</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="product.html" class="header_menu_link">Product</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="blog_news.html" class="header_menu_link"
+                    >Blog News</a
+                  >
+                </li>
+                <li class="header_menu_item">
+                  <a href="about_us.html" class="header_menu_link">About Us</a>
+                </li>
+                <li class="header_menu_item">
+                  <a href="contact.html" class="header_menu_link">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-------------------------------Slider--------------------------------->
+      <div class="container">
+        <div class="slider">
+          <div
+            id="slider"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-1.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-2.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-3.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+              <div class="carousel-item">
+                <a href="product.html"
+                  ><img
+                    src="images/slider-show-img-4.jpg"
+                    class="d-block w-100 carousel-img"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                class="active"
+              ></li>
+              <li data-bs-target="#slider" data-bs-slide-to="1"></li>
+              <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+              <li data-bs-target="#slider" data-bs-slide-to="3"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog News -->
+      <section class="blog-news">
+        <div class="container">
+          <div class="title-box">
+            <h2 class="title-box-name">Blog News</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/hairloss.jpg"
+                  class="card-img-top"
+                  alt="image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">What is hair loss</h5>
+                  <p class="card-text">
+                    Hair loss can appear in many different ways, depending on
+                    what's causing it. It can come on suddenly or gradually and
+                    affect just your scalp or your whole body.
+                  </p>
+                  <br />
+                  <a
+                    href="blog_hair_loss.html"
+                    class="btn btn-primary text-white"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/white_hair.png"
+                  class="card-img-top"
+                  alt="image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    What you should know about white hair
+                  </h5>
+                  <p class="card-text">
+                    It is normal for hair color to change, as people age. But
+                    white hair can appear at almost any time in life. Even
+                    teenagers and people in their 20s may notice strands of
+                    white hair.
+                  </p>
+                  <br />
+                  <a
+                    href="blog_white_hair.html"
+                    class="btn btn-primary text-white"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/Premature-Balding.jpg"
+                  class="card-img-top"
+                  alt="image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Going bald too young?</h5>
+                  <p class="card-text">
+                    It’s normal to lose about 100 strands of hair from your head
+                    a day. But losing more could mean that your hair is
+                    beginning to thin, and it's time to consult a dermatologist.
+                  </p>
+                  <br />
+                  <a
+                    href="blog_bald_hair.html"
+                    class="btn btn-primary text-white"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="images/growth-long-hair.jpg"
+                  class="card-img-top"
+                  alt="image"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">10 Best Ways to Boost Hair Growth</h5>
+                  <p class="card-text">
+                    You might be wondering if there’s anything you can do to
+                    make your hair grow faster. Do any products help? Can
+                    dietary changes speed up growth? And what about medications
+                    or treatments?
+                  </p>
+                  <br />
+                  <a
+                    href="blog_growth_hair.html"
+                    class="btn btn-primary text-white"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="footer-top text-center text-white">
+        <div class="container">
+          <section class="mt-5">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html" class="text-white">Home</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="product.html" class="text-white">Products</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="blog_news.html" class="text-white">Blog News</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="about_us.html" class="text-white">About us</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="contact.html" class="text-white">Contact</a>
+                </h6>
+              </div>
+            </div>
+          </section>
+          <hr class="my-5" />
+          <section class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p>
+                  Our company is the world’s largest cosmetic company and we
+                  develop activities on concentrating on hair color, skin care,
+                  and hair care. We helps to dry scalp to oily hair, dandruff to
+                  split end. 5 Problem 1 solution. Hair care product will
+                  cleanse, nourish, strengthen, smooth, and protect specifically
+                  for hair type.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="text-center mb-5">
+            <a href="https://www.facebook.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.google.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="blank" class="text-white mx-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </section>
+        </div>
+        <div class="footer-bottom text-center p-3">
+          © 2021 Copyright: Group 3
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
