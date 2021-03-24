@@ -197,6 +197,9 @@ img {
 .col-md-2{
   margin: 15px 0;
 }
+.text-uppercase a:hover {
+  color: #005073 !important;
+}
 /* contact us */
 .contact {
   padding: 4%;
