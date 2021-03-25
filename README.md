@@ -6,7 +6,7 @@ Project title: HAIRCARE
 
 ========> Group 3 <=========
 
-3 collaborators:
+4 collaborators:
 
      Group members	            Name	                    Student ID
 
