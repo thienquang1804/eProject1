@@ -24,7 +24,7 @@ eProject published at https://thienquang1804.github.io/eProject1/
 
 ============================
 
-eProject video published at youtube.com/watch?v=L1iT-3dzbdk
+eProject video published at https://www.youtube.com/watch?v=L1iT-3dzbdk
 
 ============================
 
